@@ -1,0 +1,193 @@
+/* reset css */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body{
+    font: 1.6rem;
+    font-family: 'Open-Sans', sans-serif;
+    margin: 0; 
+}
+h1,h2,h3,h4,h5,h6,p,figure,ul,ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    color: #222;
+    text-decoration: none;
+}
+*{
+    box-sizing: border-box;
+}
+button{
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+}
+
+/* header */
+
+header{
+    padding: 2rem;
+    text-align: center;
+    background-color: #fafafa;
+}
+header h1{
+    text-transform: uppercase;
+    color: #c2c2c2;
+}
+header h1 .insta{
+    color: #222;
+}
+
+/*main*/
+
+main{
+    padding : 2rem;
+}
+section{
+    display: block;
+    margin: 1rem auto;
+    max-width: 40rem;
+}
+.connexion{
+    background-color: #fff;
+    border: solid 1px #e5e5e5;
+    margin: 1rem auto;
+    padding: 4rem;
+    max-width: 40rem;
+}
+.inscription{
+    background-color: #fff;
+    border: solid 1px #e5e5e5;
+    margin: 1rem auto;
+    padding: 2rem;
+    max-width: 40rem;
+}
+
+section ul li{
+    text-align: center;
+    padding-top: 2rem;
+}
+figure{
+    display: block;
+    margin: 0rem auto;
+    max-width: 90rem;
+}
+figure figcaption{
+    text-align: center;
+    padding: 2rem;
+    background-color: #222;
+}
+figure ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+figure ul li img{
+    width: 100%;
+    height: auto;
+}
+
+section form input{
+    width: 100%;
+    height: auto;
+    border: solid 1px #e5e5e5;
+    border-radius: 0.2rem;
+    padding: 1rem 0.5rem;
+    margin: 1rem auto;
+}
+section form input[type="button"]{
+    background-color: #b2dffc;
+    border-radius: 0.2rem;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+}
+section ul .fa{
+    font-size: 2rem;
+}
+section .fin li{
+    font-size: 2rem;
+    margin: 0 auto;
+    display: block;
+}
+section .fin li a img{
+    width: 13rem;
+}
+section .fin li a{
+    margin: .5rem;
+}
+section ul .fa img{
+    width: 1.5rem;
+    transform: translateX(-1rem);
+}
+section ul .fa a{
+    color: #385185;
+}
+section p{
+    text-align: center;
+    font-size: 1.5rem;
+    transform: translateY(1rem);
+    background-color: #fff;
+    width: 5rem;
+    color: #959595;
+    margin: 0rem auto;
+}
+section  hr{
+    width: 100%;
+    border: solid 1px #959595;
+    margin: 0 auto;
+}
+section  a{
+    text-align: center;
+}
+section  .inst{
+    width: 55%;
+    display: block;
+    margin: 0 auto;
+}
+
+section .connexion form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+
+footer{
+    max-width: 100rem;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 0,75rem;
+}
+footer p{
+    text-align: center;
+    font-size: small;
+    margin: 2rem auto;
+}
+
+@media screen and (max-width: 768px){
+    section figure{
+        width: 100%;
+    }
+    section{
+        display: block;
+        margin: 0rem auto;
+        padding: 0;
+        max-width: 70rem;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    section .phone, .ecran, header{
+        display: none;
+    }
+    section figure .inst{
+        width: 75%;
+    }
+    section figure .fin li a img{
+        width: 12rem;
+    }
+}
