@@ -53,7 +53,7 @@ section{
     max-width: 40rem;
 }
 .connexion{
-    background-color: #fff;
+    background-color: #fafafa;
     border: solid 1px #e5e5e5;
     margin: 1rem auto;
     padding: 4rem;
@@ -76,10 +76,17 @@ figure{
     margin: 0rem auto;
     max-width: 90rem;
 }
-figure figcaption{
-    text-align: center;
-    padding: 2rem;
+figure figcaption h2{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
     background-color: #222;
+}
+figure figcaption img{
+    max-width: 10rem;
+    padding: 1rem;
 }
 figure ul{
     display: grid;
@@ -89,7 +96,9 @@ figure ul li img{
     width: 100%;
     height: auto;
 }
-
+figure figcaption h2{
+    color: #fff;
+}
 section form input{
     width: 100%;
     height: auto;
@@ -99,7 +108,7 @@ section form input{
     margin: 1rem auto;
 }
 section form input[type="button"]{
-    background-color: #b2dffc;
+    background-color: #3897f0;
     border-radius: 0.2rem;
     color: #fff;
     cursor: pointer;
