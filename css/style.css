@@ -58,6 +58,7 @@ main{
     padding: 4rem;
     max-width: 37rem;
 }
+/*alert*/
 .error{
     display: block;
     font-size: 1.6rem;
