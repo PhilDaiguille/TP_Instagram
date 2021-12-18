@@ -5,8 +5,8 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    font: 1.6rem;
-    font-family: 'Open-Sans', sans-serif;
+    font-size: 1.6rem;
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     background-color: #fafafa;
 }
@@ -38,6 +38,7 @@ header{
 header h1{
     text-transform: uppercase;
     color: #c2c2c2;
+    font-size: 100%;
 }
 header h1 .insta{
     color: #222;
@@ -53,7 +54,7 @@ main{
     margin: 1rem auto;
     max-width: 37rem;
     background-color: #fff;
-    border: solid 1px #e5e5e5;
+    border: solid 0.2rem #dedede;
     margin: 1rem auto;
     padding: 4rem;
     max-width: 37rem;
@@ -61,21 +62,19 @@ main{
 /*alert*/
 .error{
     display: block;
-    font-size: 1.6rem;
     color: rgb(255, 0, 0);
     text-align: center;
     width: 100%;
 }
 .success{
     display: block;
-    font-size: 1.6rem;
     color: rgb(0, 129, 0);
     text-align: center;
     width: 100%;
 }
 .form .insta{
     display: block;
-    max-width: 20rem;
+    max-width: 22rem;
     margin: 0 auto;
     padding-bottom: 2rem;
 }
@@ -92,8 +91,8 @@ section{
 .form form input{
     width: 100%;
     height: auto;
-    border: solid 0.1rem #e5e5e5;
-    border-radius: 0.2rem;
+    border: solid 0.1rem #dedede;
+    border-radius: 0.1rem;
     background-color: #fafafa;
     padding: 1rem 0.5rem;
     margin: 1rem auto;
@@ -117,16 +116,14 @@ section h2 a{
 }
 section h2{
     text-align: center;
-    font-size: 1.4rem;
-    font-weight: 600;
     width: 100%;
+    font-size: 1.5rem;
     margin: 0 auto;
     padding: 2rem;
-    border: solid 1px #e5e5e5;
+    border: solid 0.2rem #dedede;
     color: #222;
 }
 section .fin li{
-    font-size: 1.6rem;
     margin: 1rem auto;
     text-align: center;
     display: block;
@@ -140,17 +137,14 @@ section .fin li a{
     margin: .5rem;
 }
 .form ul .fa img{
-    display: inl;
     width: 1.5rem;
     transform: translateX(-1rem);
 }
 .form ul .fa a{
     color: #385185;
-    font-size: 1.6rem;
 }
 .form .ou{
     text-align: center;
-    font-size: 1.5rem;
     transform: translateY(1rem);
     background-color: #fff;
     width: 5rem;
@@ -159,7 +153,7 @@ section .fin li a{
 }
 .form  hr{
     width: 100%;
-    border: solid 1px #959595;
+    border: solid 0.1rem #959595;
     margin: 0 auto;
 }
 section a{
@@ -180,9 +174,6 @@ footer p{
 @media screen and (max-width: 70rem) {
     main{
         margin: 0 auto;
-    }
-    header h1{
-        font-size: 1.6rem;
     }
     section .fin li a img{
         max-width: 13rem;
