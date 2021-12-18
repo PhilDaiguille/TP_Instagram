@@ -1,0 +1,129 @@
+/* reset css */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body{
+    font: 1.6rem;
+    font-family: 'Open-Sans', sans-serif;
+    margin: 0; 
+}
+h1,h2,h3,h4,h5,h6,p,figure,ul,ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    color: #222;
+    text-decoration: none;
+}
+*{
+    box-sizing: border-box;
+}
+button{
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+}
+
+/* header */
+
+header{
+    padding: 2rem;
+    text-align: center;
+    background-color: #fafafa;
+}
+header h1{
+    text-transform: uppercase;
+    color: #c2c2c2;
+}
+header h1 .insta{
+    color: #222;
+}
+
+/*main*/
+
+main{
+    padding : .5rem;
+}
+section{
+    display: block;
+    margin: 1rem auto;
+    padding: 2rem;
+    max-width: 37rem;
+    background-color: #fff;
+    border: solid 1px #e5e5e5;
+}
+section h2{
+    text-align: center;
+}
+
+section ul li{
+    text-align: center;
+    padding-top: 2rem;
+}
+figure{
+    display: block;
+    margin: 0rem auto;
+    max-width: 90rem;
+    border: solid .2rem #222;
+    background-color: #222;
+}
+figure figcaption h2{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+figure figcaption img{
+    max-width: 10rem;
+    padding: 1rem;
+}
+figure ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+figure ul li img{
+    width: 100%;
+    height: auto;
+}
+figure figcaption h2{
+    color: #fff;
+}
+section p{
+    text-align: center;
+    font-size: 1.5rem;
+    transform: translateY(1rem);
+    background-color: #fff;
+    width: 5rem;
+    color: #959595;
+    margin: 0rem auto;
+}
+section .connexion form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.store{
+    border: none;
+}
+.store ul li img{
+    max-width: 15rem;
+}
+
+footer{
+    max-width: 100rem;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 0,75rem;
+}
+footer p{
+    text-align: center;
+    font-size: small;
+    margin: 2rem auto;
+}
+

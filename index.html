@@ -13,34 +13,31 @@
         <h1>Réalisation d'une copie de la page de connexion du site <span class="insta">Instagram</span></h1>
     </header>
     <main>
-        <section class="connexion">
+            <div class="form" role="form">
                 <img src="./svg/logo_instagram.svg" alt="Instagram" class="insta">
-                    <form method="get">
-                        <label for="id">
-                        <input type="text" aria-label="Num. téléphone, nom d’utilisateur ou e-mail" name="Num"  aria-required="true" placeholder="Num. téléphone, nom d’utilisateur ou e-mail"></label>
-                        <label for="id">
-                        <input type="password" name="Mot de passe"  aria-required="true" placeholder="Mot de passe"></label>
-                        <label for="id">
-                        <input type="button" value="Connexion"></label>
+                    <p></p>
+                    <form action="accueil.html" method="get">
+                        <!--Email-->
+                        <input type="email" name="mail" placeholder="Mail Utilisateur" id="email" aria-required="true" required>
+                        <!--Le mot de passe-->
+                        <input type="password" name="password" placeholder="Mot de passe" id="password" aria-required="true" required>
+                        <!--Submit -->
+                        <input type="submit" value="Se connecter">
                     </form>
-                        <p>OU</p>
+                        <p class="ou">OU</p>
                     <hr>
                     <ul>
-                        <li class="fa"><img src="./asset/Facebook.png" alt="Facebook"><a href="">Se connecter avec Facebook</a></li>
-                        <li><a href="">Mot de passe oublié ?</a></li>
+                        <li class="fa"><a href="#"><img src="./asset/Facebook.png" alt="Facebook">Se connecter avec Facebook</a></li>
+                        <li><a href="#">Mot de passe oublié ?</a></li>
                     </ul>
-        </section>
-        <section class="Inscription">
-            <ul>
-                <li>Vous n'avez pas de compte ? <a href="#">Inscrivez-vous</a></li>
-            </ul>
-        </section>
+            </div>
         <section>
+            <h2>Vous n'avez pas de compte ? <a href="#">Inscrivez-vous</a></h2>
             <ul class="fin">
                 <li>Telecharger l'application</li>
                 <li>
                     <a href=""><img src="./asset/appleStore.png" alt="appstore"></a>
-                    <a href=""><img src="./asset/googlePlay.png" alt="playstor"></a>
+                    <a href=""><img src="./asset/googlePlay.png" alt="playstore"></a>
                 </li>
             </ul>
         </section>
@@ -48,5 +45,6 @@
     <footer>
         <p>&copy; Philippe DELENTE - 2021</p>
     </footer>
+    <script src="./js/app.js"></script>
 </body>
 </html>
