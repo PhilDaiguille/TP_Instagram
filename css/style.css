@@ -80,8 +80,7 @@ main{
     padding-bottom: 2rem;
 }
 section{
-    margin: 0rem auto;
-    padding: 2rem;
+    margin: 1rem auto;
     max-width: 37rem;
 }
 
@@ -93,7 +92,7 @@ section{
 .form form input{
     width: 100%;
     height: auto;
-    border: solid 1px #e5e5e5;
+    border: solid 0.1rem #e5e5e5;
     border-radius: 0.2rem;
     background-color: #fafafa;
     padding: 1rem 0.5rem;
@@ -120,6 +119,10 @@ section h2{
     text-align: center;
     font-size: 1.4rem;
     font-weight: 600;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+    border: solid 1px #e5e5e5;
     color: #222;
 }
 section .fin li{
