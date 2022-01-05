@@ -11,9 +11,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     btn.addEventListener("click", e => {
         e.preventDefault();
-        formActive();
+        Connexion();
     });
-    let formActive = () => {
+    let Connexion = () => {
 
         email = document.getElementsByTagName("input")[0].value;
         password = document.getElementsByTagName("input")[1].value;

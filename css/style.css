@@ -5,8 +5,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    font-size: 1.6rem;
-    font-family: 'Open Sans', sans-serif;
+    font: 1.6rem 'Open Sans', sans-serif;
     margin: 0;
     background-color: #fafafa;
 }
@@ -37,8 +36,8 @@ header{
 }
 header h1{
     text-transform: uppercase;
-    color: #c2c2c2;
-    font-size: 100%;
+    font-size: 1.6rem;
+    color: #6b6b6b;
 }
 header h1 .insta{
     color: #222;
@@ -54,10 +53,8 @@ main{
     margin: 1rem auto;
     max-width: 37rem;
     background-color: #fff;
-    border: solid 0.2rem #dedede;
-    margin: 1rem auto;
-    padding: 4rem;
-    max-width: 37rem;
+    border: solid 0.1rem #dedede;
+    padding: 2rem 3rem;
 }
 /*alert*/
 .error{
@@ -87,6 +84,9 @@ section{
     text-align: center;
     padding-top: 2rem;
 }
+.form ul li:last-child{
+    padding-top: 1rem;
+}
 
 .form form input{
     width: 100%;
@@ -98,12 +98,11 @@ section{
     margin: 1rem auto;
 }
 .form form input:nth-child(3){
-    background-color: #3897f0;
+    background-color: #2279ca;
     border: none;
     border-radius: 0.2rem;
     color: #fff;
     cursor: pointer;
-    font-weight: 600;
 }
 form *{
     display: block;
@@ -111,16 +110,19 @@ form *{
     margin: 1rem auto;
     padding: 1rem;
 }
+html body main div.form ul li a{
+    color: #385185;
+}
 section h2 a{
-    color: #3897f0;
+    color: #1674cc;
 }
 section h2{
     text-align: center;
     width: 100%;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     margin: 0 auto;
     padding: 2rem;
-    border: solid 0.2rem #dedede;
+    border: solid 0.1rem #dedede;
     color: #222;
 }
 section .fin li{
@@ -148,7 +150,7 @@ section .fin li a{
     transform: translateY(1rem);
     background-color: #fff;
     width: 5rem;
-    color: #959595;
+    color: #6b6b6b;
     margin: 0rem auto;
 }
 .form  hr{

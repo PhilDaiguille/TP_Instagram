@@ -37,7 +37,7 @@ header{
 header h1{
     text-transform: uppercase;
     font-size: 1.6rem;
-    color: #c2c2c2;
+    color: #6b6b6b;
 }
 header h1 .insta{
     color: #222;
@@ -60,6 +60,11 @@ section h2{
     text-align: center;
     font-size: 1.6rem;
 }
+section img{
+    display: block;
+    margin: 0rem auto;
+    max-width: 25rem;
+}
 
 section ul li{
     text-align: center;
@@ -69,6 +74,7 @@ figure{
     display: block;
     margin: 0rem auto;
     max-width: 90rem; 
+    border: solid .1rem #222;
     background-color: #222;
 }
 figure figcaption h2{
@@ -85,11 +91,10 @@ figure figcaption img{
 figure ul{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-gap: .1rem;
 }
 figure ul li img{
-    max-width: 100%;
-    height: auto;
-    border: solid .1rem #222;
+    max-width: 100%;    
     display: block;
 
 }
@@ -104,18 +109,12 @@ section p{
     color: #959595;
     margin: 0rem auto;
 }
-section .connexion form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
-}
 .store{
     border: none;
 }
 .store ul li img{
     max-width: 15rem;
+    display: inline;
 }
 
 footer{

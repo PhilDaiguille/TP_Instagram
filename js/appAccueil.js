@@ -6,7 +6,4 @@ document.addEventListener("DOMContentLoaded", () => {
     el.innerText += ` ${submit_log}`;
     el.style.color = "green";
     el2.innerText += ` ${submit_log}`;
-
-    localStorage.clear();
-    sessionStorage.clear();
 });
