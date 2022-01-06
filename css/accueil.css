@@ -74,7 +74,7 @@ section ul li{
 figure{
     display: block;
     margin: 0rem auto;
-    max-width: 90rem; 
+    max-width: 110rem; 
     border: solid .1rem #222;
     background-color: #222;
 }
