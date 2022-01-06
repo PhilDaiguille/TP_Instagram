@@ -37,6 +37,6 @@ document.addEventListener("DOMContentLoaded", () => {
             warning.classList.add("error");
             warning.innerText = "Mail ou mot de passe incorrecte";
             warning.classList.remove("success");
-        };
+        }
     };
 });
